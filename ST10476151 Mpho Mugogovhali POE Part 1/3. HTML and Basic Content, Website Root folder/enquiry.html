@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title> The Daily Grind Café | Home</title>
+         <link rel="icon" type="image/png"
+    href="images/logo.png">
+
+    </head>
+    <body>
+        <!--Header and navigation-->
+        <Header>
+            <nav>
+                <h1>
+                     <img src="images/logo.png" alt="The Daily Grind Café" width="150" height="150">
+                The Daily Grind Café
+                </h1>
+                <ul>
+                    <ul>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="enquiry.html">Enquiry</a>
+                    <a href="contact.html">Contact</a>
+                </ul>
+                </ul>
+            </nav>  
+        </Header>
+         <!--Enquiry Section-->
+            <main>
+                <section>
+                    <h2> Make an Enquiry</h2>
+                    <p>
+                        Have a quesrtion about our menu, services, or café?
+                        Complete the form below and our team will get back to you.
+                    </p>
+                    <!--enquiry Form-->
+                    <form action="#" method="post">
+
+                        <!--Name Feild-->
+                        <section>
+                            <h3>Your Details</h3>
+                            <p>
+                                <label for="full-name">Full Name:</label>
+                                <input type="text" id="full-name" name="full-name"
+                                placeholder="Enter your full mame" required>
+                            </p>
+                            <!--Email Feild-->
+                            <p>
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" name="email"
+                                placeholder="Enter your email address" required>
+                            </p>
+                            <!--Phone feild-->
+                            <p>
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone"
+                                placeholder="Enter your phonne number">
+                            </p>
+                        </section>
+                        <!--Enquiry Details-->
+                        <section>
+                            <h3>Enquiry Details</h3>
+                            <p>
+                                <label for="enquiry-type">Type of Enquiry:</label>
+                                <select id="Equiry-type" name="enquiry-type" required>
+                                    <option value="">--Select an option--</option>
+                                    <option value="menu">Menu Question</option>
+                                    <option value="booking">Booking Enquiry</option>
+                                    <option value="catering">Catering Enquiry</option>
+                                    <option value="general">Genral enquiry</option>
+                                </select>
+                            </p>
+                            <!--Message Feild-->
+                            <p>
+                                <label for="message">Your Message:</label>
+                                <br>
+                                <textarea id="message" name="message" rows="6" 
+                            placeholder="Enter your enquiry here..." required></textarea>
+                            </p>
+                        </section>
+                        <!--Submit Button-->
+                        <p>
+                            <button type="Submit">Submit Enquiry</button>
+                        </p>
+                    </form>
+                </section>
+
+            </main>
+            <!--Footer-->
+            <footer>
+                <p>&copy; 2026 The Daily Grind Café. All rights reserved.</p>
+            </footer>
+    </body>
+</html>
